@@ -1,0 +1,38 @@
+<div ng-app='BlurAdmin'>
+
+<div layout="row" layout-xs="column">
+<div flex>
+  <img src={{imglnk}} height={{imgheight}} width={{imgwidth}} alt={{imgalt}}>
+  </div>
+  <div flex>
+  	<div ng-app="WeatherApp">
+    <weather-widget></weather-widget> 
+	</div>
+  </div>
+</div>
+
+<div layout="row" layout-xs="column">
+<div flex>
+  	<style>
+	table, th, td {
+    	border: 1px solid white;
+	}
+	</style>
+      <table style="width:85%">
+      <tr>
+        <th>Time</th>
+        <th>Wave Height</th>
+      </tr>
+      <tr ng-repeat="x in times">
+        <td>{{ x.Time }}</td>
+        <td>{{ x.Output }}</td>
+      </tr>
+    </table>
+  </div>
+  <div flex>
+  	<div ng-controller="chartCtrl">
+    <highchart id="chart1" config="chartConfig"></highchart>
+  </div>
+
+</div>
+

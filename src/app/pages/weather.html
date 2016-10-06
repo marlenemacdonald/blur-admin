@@ -1,0 +1,7 @@
+ <!DOCTYPE html>
+ <div ng-app="WeatherApp" ng-controller="WeatherCtrl">
+    <h2>Weather in {{beach}}, Hawaii</h2>
+    <weather-icon cloudiness="{{ weather.clouds }}"></weather-icon>
+    <h3>Current: {{ weather.temp.current | temp:2 }}</h3>
+    min: {{ weather.temp.min | temp }}, max: {{ weather.temp.max | temp}}
+</div>

@@ -53,10 +53,13 @@
     "angular-animate": "~1.4.8",
     "textAngular": "~1.4.6",
     "angular-xeditable": "~0.1.9",
-    "ng-js-tree": "~0.0.7"
+    "ng-js-tree": "~0.0.7",
+    "angular-material": "^1.1.1",
+    "highcharts": "^4.2.6",
+    "highcharts-ng": "^0.0.12"
   },
   "resolutions": {
-    "angular": "~1.4.8"
+    "angular": "1.4.12"
   },
   "overrides": {
     "amcharts": {

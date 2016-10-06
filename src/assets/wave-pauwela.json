@@ -1,0 +1,37 @@
+
+[
+	{"Time":"00:09", "Output":4.95},
+	{"Time":"00:39", "Output":4.99},
+	{"Time":"01:09", "Output":5.12},
+	{"Time":"01:39", "Output":4.79},
+	{"Time":"02:09", "Output":4.92},
+	{"Time":"02:39", "Output":5.15},
+	{"Time":"03:09", "Output":5.25},
+	{"Time":"03:39", "Output":5.15},
+	{"Time":"04:09", "Output":4.86},
+	{"Time":"04:39", "Output":4.92},
+	{"Time":"05:09", "Output":5.22},
+	{"Time":"05:39", "Output":5.05},
+	{"Time":"06:09", "Output":5.09},
+	{"Time":"06:39", "Output":5.41},
+	{"Time":"07:09", "Output":5.58},
+	{"Time":"07:39", "Output":5.28},
+	{"Time":"08:09", "Output":5.84},
+	{"Time":"08:39", "Output":5.58},
+	{"Time":"09:09", "Output":6.20},
+	{"Time":"09:39", "Output":6.07},
+	{"Time":"10:09", "Output":5.77},
+	{"Time":"10:39", "Output":5.74},
+	{"Time":"11:09", "Output":5.91},
+	{"Time":"11:39", "Output":5.84},
+	{"Time":"12:09", "Output":6.27},
+	{"Time":"12:39", "Output":6.73},
+	{"Time":"13:09", "Output":6.73},
+	{"Time":"13:39", "Output":6.89},
+	{"Time":"14:09", "Output":6.63},
+	{"Time":"14:39", "Output":6.59}
+
+
+]
+
+ 	

@@ -1,11 +1,14 @@
-/**
- * @author v.lugovsky
- * created on 16.12.2015
- */
+
+
+
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.dashboard', [])
+ angular.module('BlurAdmin.pages.dashboard', ['ngMaterial'])
+  .config(function($mdThemingProvider) {
+    $mdThemingProvider.disableTheming();
+ })
+
       .config(routeConfig);
 
   /** @ngInject */
@@ -14,12 +17,16 @@
         .state('dashboard', {
           url: '/dashboard',
           templateUrl: 'app/pages/dashboard/dashboard.html',
-          title: 'Dashboard',
+          title: 'Surf Report',
           sidebarMeta: {
             icon: 'ion-android-home',
             order: 0,
+            linkUrl: 'http:google.com'
           },
         });
   }
 
 })();
+
+
+

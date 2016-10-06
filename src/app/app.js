@@ -12,7 +12,19 @@ angular.module('BlurAdmin', [
   'ui.slimscroll',
   'ngJsTree',
   'angular-progress-button-styles',
-
   'BlurAdmin.theme',
-  'BlurAdmin.pages'
+  'BlurAdmin.pages',
+  'BlurAdmin.pages.dashboard',
+  'BlurAdmin.pages.beaches',
+  'BlurAdmin.pages.beaches.waimea',
+  'BlurAdmin.pages.beaches.pauwela',
+  'BlurAdmin.pages.beaches.hanalei',
+  'ngMaterial',
+  'ngAria',
+  'highcharts-ng',
+  'ngMessages',
+  'WeatherApp',
+  'WaveChart'
 ]);
+
+

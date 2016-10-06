@@ -13,7 +13,16 @@ wrench.readdirSyncRecursive('./gulp').filter(function(file) {
   require('./gulp/' + file);
 });
 
+gulp.task('express', function() {
+  var express = require('express');
+  var app = express();
+  app.use(express.static(__dirname));
+  app.listen(3000, '0.0.0.0');
+});
 
+gulp.task('default', ['express'], function() {
+
+});
 /**
  *  Default task clean temporaries directories and launch the
  *  main optimization build task
@@ -21,3 +30,4 @@ wrench.readdirSyncRecursive('./gulp').filter(function(file) {
 gulp.task('default', ['clean'], function () {
   gulp.start('build');
 });
+

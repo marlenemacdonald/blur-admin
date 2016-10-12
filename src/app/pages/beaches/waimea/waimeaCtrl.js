@@ -1,14 +1,10 @@
-/**
- * @author a.demeshko
- * created on 12/21/15
- */
+
 (function () {
   'use strict';
 
   angular.module('BlurAdmin.pages.beaches.waimea')
     .controller('waimeaCtrl', waimeaCtrl);
 
-  /** @ngInject */
   function waimeaCtrl($scope, $http) {
 
     $http.get('assets/wave-waimea.json')

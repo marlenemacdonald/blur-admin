@@ -1,7 +1,4 @@
-/**
- * @author a.demeshko
- * created on 12/21/15
- */
+
 (function () {
   'use strict';
 
@@ -9,7 +6,6 @@
   angular.module('BlurAdmin.pages.beaches.hanalei')
     .controller('hanaleiCtrl', hanaleiCtrl);
 
-  /** @ngInject */
   function hanaleiCtrl($scope, $http) {
 
     $http.get('assets/wave-hanalei.json')

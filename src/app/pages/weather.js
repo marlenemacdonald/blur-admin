@@ -27,7 +27,7 @@ WeatherApp.factory('weatherService', function($http) {
 
         return weather;
       }
-    }; 
+    }
 });
 
 WeatherApp.filter('temp', function($filter) {

@@ -1,6 +1,4 @@
 
-
-
 (function () {
   'use strict';
 
@@ -11,7 +9,7 @@
 
       .config(routeConfig);
 
-  /** @ngInject */
+
   function routeConfig($stateProvider) {
     $stateProvider
         .state('dashboard', {
